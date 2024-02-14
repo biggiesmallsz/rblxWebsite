@@ -1,0 +1,53 @@
+/* CSS Document */
+
+/* CSS Reset */
+body, h1, h2, main, nav, nav a, div, img, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+body {
+	background: #F3DDDD;
+}
+
+header{
+	padding: 2%;
+}
+
+h2{
+	text-align: center;
+	text-decoration-style: bold;
+}
+.hero {
+	background-image: url("../Archive/index_pic.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20%;
+}
+
+nav {
+	background-color: #7B3031;
+}
+
+nav a {display: block;
+	color: #AC5C5C;
+	text-decoration: none;
+	padding: 0 2em;
+}
+a:hover {
+	color: #fff;
+	
+}nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+	
+}nav li {
+	display: inline-block;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 2em 1em 0 0;
+	padding: 0 0 2em;
+}
